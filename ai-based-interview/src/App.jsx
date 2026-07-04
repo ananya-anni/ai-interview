@@ -1,7 +1,12 @@
 import "./App.css";
+import TabForm from "./components/TabForm";
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <TabForm />
+    </>
+  );
 }
 
 export default App;
