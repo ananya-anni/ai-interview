@@ -1,6 +1,6 @@
 import { useState } from "react";
-import SignUp from "./SignUp";
-import Login from "./Login";
+import SignUp from "../pages/SignUp/SignUp";
+import Login from "../pages/Login/Login";
 const TabForm = () => {
   const [tabIndex, setTabIndex] = useState(0);
 

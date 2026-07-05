@@ -1,4 +1,4 @@
-import Input from "./Input";
+import Input from "../../common-components/Input";
 import { useState } from "react";
 const Login = () => {
   const [formData, setFormData] = useState({
