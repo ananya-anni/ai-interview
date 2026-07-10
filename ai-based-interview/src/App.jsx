@@ -1,10 +1,12 @@
 import "./App.css";
-import TabForm from "./components/TabForm";
+// import LoginSignUpForm from "./pages/LoginSignUpForm/LoginSignUpForm";
+import DashboardContainer from "./pages/DashboardContainer/DashboardContainer";
 
 function App() {
   return (
     <>
-      <TabForm />
+      {/* <LoginSignUpForm /> */}
+      <DashboardContainer />
     </>
   );
 }

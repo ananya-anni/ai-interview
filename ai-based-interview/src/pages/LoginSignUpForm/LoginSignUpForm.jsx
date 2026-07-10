@@ -1,7 +1,7 @@
 import { useState } from "react";
-import SignUp from "../pages/SignUp/SignUp";
-import Login from "../pages/Login/Login";
-const TabForm = () => {
+import SignUp from "./components/SignUp";
+import Login from "./components/Login";
+const LoginSignUpForm = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   const tabs = [
@@ -49,4 +49,4 @@ const TabForm = () => {
   );
 };
 
-export default TabForm;
+export default LoginSignUpForm;

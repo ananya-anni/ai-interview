@@ -1,4 +1,4 @@
-import Input from "../../common-components/Input";
+import Input from "../../../common-components/Input";
 import { useState } from "react";
 const SignUp = () => {
   const [formData, setFormData] = useState({
